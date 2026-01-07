@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="max-w-[1440px] m-auto">
+    <div className="max-w-[1440px] m-auto bg-[#020202]">
       <Home />
     </div>
   );

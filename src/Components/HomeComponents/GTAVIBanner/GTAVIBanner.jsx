@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../Img/GTA6banner.svg";
 const GTAVIBanner = () => {
   return (
-    <div>
+    <div className="mb-[80px]">
       <img src={img} alt="GTA^Banner" />
     </div>
   );
