@@ -23,9 +23,9 @@ const Header = () => {
                 key={Text}
                 className="text-[16px] text-[#FFFFFF] flex gap-[24px]"
               >
-                <span key={Text}>{Text.Jogos}</span>
-                <span key={Text}>{Text.Loja}</span>
-                <span key={Text}>{Text.Ajuda}</span>
+                <span>{Text.Jogos}</span>
+                <span>{Text.Ajuda}</span>
+                <span>{Text.Loja}</span>
               </li>
             ))}
           </ul>

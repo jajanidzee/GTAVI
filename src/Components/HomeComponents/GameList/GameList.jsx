@@ -6,7 +6,7 @@ import img4 from "../../Img/RedOnline.svg";
 import Buttons from "../../Button/Buttons";
 const GameList = () => {
   return (
-    <div className="w-[1160px] h-[554.85px]  bg-[#020202] m-auto flex flex-col ">
+    <div className="w-[1160px] bg-[#020202] m-auto flex flex-col mb-[112px] ">
       <div className="flex items-center justify-between mb-[40px]">
         <h1 className="text-[#F6F6F6] text-[48px]">Jogos em Destaque</h1>
         <div className="flex gap-[16px]">
