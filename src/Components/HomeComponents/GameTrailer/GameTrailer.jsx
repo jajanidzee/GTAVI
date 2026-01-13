@@ -4,13 +4,17 @@ import img2 from "../../Img/Rectangle25.svg";
 import img3 from "../../Img/Rectangle24.png";
 const GameTrailer = () => {
   return (
-    <div className="w-[1160px] h-[632px] m-auto mb-[80px]">
+    <div className="w-[1160px] h-[632px] m-auto mb-[112px]">
       <h1 className="text-[#F6F6F6] text-[48px] font-bold mb-[40px]">
         Ultimas Noticias
       </h1>
       <div className="flex gap-[40px]">
         <div className="h-[860px]">
-          <img src={img} alt="GTA6Photo" className=" mb-[20px]" />
+          <img
+            src={img}
+            alt="GTA6Photo"
+            className=" mb-[20px] rounded-[16px]"
+          />
           <p className="text-[white] text-[32px] pl-[32px]">
             Grand Theft Auto VI-Veja 1 trailer agora
           </p>
