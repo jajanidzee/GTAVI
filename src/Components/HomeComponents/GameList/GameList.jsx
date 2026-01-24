@@ -50,7 +50,7 @@ const GameList = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-[40px] mb-[64px]">
+      <div className=" gap-[40px] mb-[64px] flex">
         <a href="https://www.rockstargames.com/gta-v" target="blank">
           <motion.img
             whileHover={{ scale: 1.1 }}

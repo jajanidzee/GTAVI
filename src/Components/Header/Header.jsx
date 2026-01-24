@@ -33,18 +33,36 @@ const Header = () => {
                 key={Text}
                 className="text-[16px] text-[#FFFFFF] flex gap-[24px]"
               >
-                <a href="https://www.rockstargames.com/gta-v" target="blank">
+                <motion.a
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  onHoverStart={() => console.log("hover started!")}
+                  href="https://www.rockstargames.com/gta-v"
+                  target="blank"
+                >
                   {" "}
                   <span>{Text.Jogos}</span>
-                </a>
-                <a href="https://www.rockstargames.com/gta-v" target="blank">
+                </motion.a>
+                <motion.a
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  onHoverStart={() => console.log("hover started!")}
+                  href="https://www.rockstargames.com/gta-v"
+                  target="blank"
+                >
                   {" "}
                   <span>{Text.Ajuda}</span>
-                </a>
-                <a href="https://www.rockstargames.com/gta-v" target="blank">
+                </motion.a>
+                <motion.a
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  onHoverStart={() => console.log("hover started!")}
+                  href="https://www.rockstargames.com/gta-v"
+                  target="blank"
+                >
                   {" "}
                   <span>{Text.Loja}</span>
-                </a>
+                </motion.a>
               </li>
             ))}
           </ul>

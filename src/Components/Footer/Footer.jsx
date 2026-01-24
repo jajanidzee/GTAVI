@@ -25,7 +25,17 @@ const Footer = () => {
   return (
     <div className="pt-[91px] pl-[140px] pb-[107px] pr-[140px] flex justify-between">
       <div className="flex items-start gap-[40px] ">
-        <img src={img} alt="BlackRockStarPhoto" />
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="cursor-pointer"
+            src={img}
+            alt="BlackRockStarPhoto"
+          />
+        </a>
         <div>
           <ul className="text-[#797979] flex gap-[24px] text-[16px] mb-[7px]">
             {list.map((lists, index) => (
@@ -38,11 +48,63 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center gap-[32px]">
-        <img className="w-[24px] h-[24px]" src={img2} alt="twitchPhoto" />
-        <img className="w-[24px] h-[24px]" src={img3} alt="instagramPhoto" />
-        <img className="w-[24px] h-[24px]" src={img4} alt="twitterPhoto" />
-        <img className="w-[24px] h-[24px]" src={img5} alt="youtubePhoto" />
-        <img className="w-[24px] h-[24px]" src={img6} alt="facebookPhoto" />
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="w-[24px] h-[24px] cursor-pointer"
+            src={img2}
+            alt="twitchPhoto"
+            target
+          />
+        </a>
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="w-[24px] h-[24px] cursor-pointer"
+            src={img3}
+            alt="instagramPhoto"
+          />
+        </a>
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="w-[24px] h-[24px] cursor-pointer"
+            cursor-pointer
+            src={img4}
+            alt="twitterPhoto"
+          />
+        </a>
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="w-[24px] h-[24px] cursor-pointer"
+            src={img5}
+            alt="youtubePhoto"
+          />
+        </a>
+        <a href="https://www.rockstargames.com/gta-v" target="blank">
+          {" "}
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            className="w-[24px] h-[24px] cursor-pointer "
+            src={img6}
+            alt="facebookPhoto"
+          />
+        </a>
       </div>
     </div>
   );
